@@ -1,21 +1,21 @@
-# 📊 APIspect — AI-Powered API Observability & Debugging
+# APIspect — AI-Powered API Observability & Debugging
 
 APIspect is a modern, premium Next.js-based web application designed to make API log monitoring, incident timeline parsing, and root-cause debugging frictionless. It converts raw, unstructured application logs (JSON, Apache, standard text format) into visual dashboards in milliseconds, assesses outage risk levels, tracks deployment regressions, and generates automated code fixes using advanced LLMs (Gemini, OpenAI, or Groq).
 
 ---
 
-## ✨ Features
+## Features
 
-- **🚀 Instant Client-Side Parsing:** Upload `.log`, `.txt`, or `.json` files. The high-performance client-side parser extracts metrics, API failure rates, status code distributions, HTTP method frequencies, and endpoint statistics instantly without uploading private raw data to external servers.
-- **🧠 AI-Powered Diagnostics (DebugPilot):** Run detailed diagnostics to identify anomalies, group recurring exceptions, pin down system bottlenecks (e.g., database pool exhaustions, authentication failures, network timeouts), and receive code/config remediation suggestions.
-- **⏱️ Chronological Incident Timelines:** Reconstructs the exact order of events leading up to a system failure, isolating warning metrics that preceded hard server errors.
-- **🔄 Pre/Post-Deployment Log Comparison:** Compare log outputs from before and after a production deployment to detect regressions, latency spikes, or brand-new error signatures.
-- **⚠️ Predictive Outage Risk Assessment:** Computes an outage risk score (0-100) using multi-factor heuristics (failure rates, average response latency, database bottlenecks, timeout events).
-- **💬 Interactive Chat Copilot:** Chat with the built-in DebugPilot AI to ask contextual questions about logs, like *"Why is the `/api/v1/payment` endpoint failing?"* or *"What was the sequence of events?"*.
+- **Instant Client-Side Parsing:** Upload `.log`, `.txt`, or `.json` files. The high-performance client-side parser extracts metrics, API failure rates, status code distributions, HTTP method frequencies, and endpoint statistics instantly without uploading private raw data to external servers.
+- **AI-Powered Diagnostics (DebugPilot):** Run detailed diagnostics to identify anomalies, group recurring exceptions, pin down system bottlenecks (e.g., database pool exhaustions, authentication failures, network timeouts), and receive code/config remediation suggestions.
+- **Chronological Incident Timelines:** Reconstructs the exact order of events leading up to a system failure, isolating warning metrics that preceded hard server errors.
+- **Pre/Post-Deployment Log Comparison:** Compare log outputs from before and after a production deployment to detect regressions, latency spikes, or brand-new error signatures.
+- **Predictive Outage Risk Assessment:** Computes an outage risk score (0-100) using multi-factor heuristics (failure rates, average response latency, database bottlenecks, timeout events).
+- **Interactive Chat Copilot:** Chat with the built-in DebugPilot AI to ask contextual questions about logs, like *"Why is the `/api/v1/payment` endpoint failing?"* or *"What was the sequence of events?"*.
 
 ---
 
-## 🛠️ Architecture & Tech Stack
+## Architecture & Tech Stack
 
 APIspect is built on top of a highly responsive developer-centric stack:
 
@@ -28,7 +28,7 @@ APIspect is built on top of a highly responsive developer-centric stack:
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 APIspect/
@@ -55,7 +55,7 @@ APIspect/
 
 ---
 
-## ⚙️ Local Setup
+## Local Setup
 
 ### 1. Clone & Install Dependencies
 Clone the repository and install the required npm packages:
@@ -83,7 +83,7 @@ Open [http://localhost:3000](http://localhost:3000) on your browser.
 
 ---
 
-## 🚀 Deployment to Vercel
+## Deployment to Vercel
 
 APIspect is fully compatible with [Vercel](https://vercel.com) out of the box. Follow these steps to deploy your application:
 
@@ -116,5 +116,5 @@ If you prefer deploying from your terminal:
 
 ---
 
-## 📄 License
+## License
 This project is open-source and available under the MIT License.
