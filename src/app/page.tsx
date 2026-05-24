@@ -10,6 +10,7 @@ import {
   GitCompare, 
   Layers 
 } from 'lucide-react';
+import { SmoothAnchor } from '@/components/ui/smooth-anchor';
 
 export default function LandingPage() {
   return (
@@ -33,9 +34,8 @@ export default function LandingPage() {
           </div>
 
           <nav className="hidden md:flex items-center space-x-8 text-sm font-medium text-zinc-400">
-            <a href="#features" className="hover:text-white transition-colors">Features</a>
-            <a href="#architecture" className="hover:text-white transition-colors">Architecture</a>
-            <a href="https://github.com" target="_blank" rel="noreferrer" className="hover:text-white transition-colors">Github</a>
+            <SmoothAnchor targetId="features" className="hover:text-white transition-colors">Features</SmoothAnchor>
+            <a href="https://github.com/Aayushi-raj/APIspect" target="_blank" rel="noreferrer" className="hover:text-white transition-colors">Github</a>
           </nav>
 
           <div>
@@ -131,7 +131,7 @@ export default function LandingPage() {
       </main>
 
       {/* Features Grid */}
-      <section id="features" className="max-w-7xl mx-auto px-6 py-24 border-t border-zinc-900 relative z-10">
+      <section id="features" className="max-w-7xl mx-auto px-6 py-24 border-t border-zinc-900 relative z-10 scroll-mt-20">
         <div className="text-center space-y-4 mb-16">
           <h2 className="text-3xl font-extrabold tracking-tight text-white sm:text-4xl">
             Everything you need to debug faster
