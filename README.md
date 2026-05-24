@@ -1,5 +1,7 @@
 # APIspect — AI-Powered API Observability & Debugging
 
+🚀 **Live Deployment:** [https://api-spect.vercel.app/](https://api-spect.vercel.app/)
+
 APIspect is a modern, premium Next.js-based web application designed to make API log monitoring, incident timeline parsing, and root-cause debugging frictionless. It converts raw, unstructured application logs (JSON, Apache, standard text format) into visual dashboards in milliseconds, assesses outage risk levels, tracks deployment regressions, and generates automated code fixes using advanced LLMs (Gemini, OpenAI, or Groq).
 
 ---
@@ -55,30 +57,5 @@ APIspect/
 
 ---
 
-## Local Setup
-
-### 1. Clone & Install Dependencies
-Clone the repository and install the required npm packages:
-```bash
-git clone https://github.com/Aayushi-raj/APIspect.git
-cd APIspect
-npm install
-```
-
-### 2. Configure Environment Variables
-Create a `.env.local` file in the root directory:
-```env
-# Add at least one of the keys below to unlock full AI diagnostics
-GEMINI_API_KEY=your_gemini_api_key
-GROQ_API_KEY=your_groq_api_key
-OPENAI_API_KEY=your_openai_api_key
-```
-
-### 3. Run Development Server
-Start the Next.js dev server:
-```bash
-npm run dev
-```
-Open [http://localhost:3000](http://localhost:3000) on your browser.
-
----
+## License
+This project is open-source and available under the MIT License.
