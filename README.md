@@ -126,35 +126,13 @@ This shows the full product loop: observe, diagnose, explain, and respond.
 
 ---
 
-## Architecture
+## Architecture Diagram
 
-```text
-Raw logs
-   |
-   v
-Browser-side parser
-   |
-   |-- status/method/path/latency extraction
-   |-- endpoint aggregation
-   |-- error categorization
-   |-- outage risk scoring
-   |-- incident timeline generation
-   v
-Interactive dashboard
-   |
-   |-- charts and metrics
-   |-- timeline
-   |-- deployment comparison
-   |-- incident report
-   v
-AI routes
-   |
-   |-- /api/analyze
-   |-- /api/chat
-   |-- /api/compare
-   v
-Gemini / OpenAI / Groq / local fallback
-```
+![APIspect Architecture](/public/architectureDiagram.jpeg)
+
+## Workflow Diagram
+
+![APIspect Workflow](/public/workflowDiagram.jpeg)
 
 ---
 
